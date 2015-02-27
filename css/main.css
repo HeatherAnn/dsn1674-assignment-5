@@ -6,6 +6,9 @@ html{
   box-sizing: inherit;
 
 }
+body{
+  font-family: 'Merriweather', serif;
+}
 header{
   background-color: #d05c2e;
   text-align: center;
@@ -22,9 +25,7 @@ header{
   float: left;
   width: 15%
 }
-body{
-  font-family: 'Merriweather', serif;
-}
+
 nav ul {
   list-style-type: none;
   padding: 0.5em 0;
@@ -46,4 +47,103 @@ nav a{
 }
 a:hover{
   background-color: #A93F35;
+}
+.grains{
+  float: left;
+  width: 50%;
+  margin-right: 15px;
+}
+.cereals{
+  float: right;
+  width: 50%;
+  margin-left: 15px;
+  border: 1px solid;
+  border-color: grey;
+}
+.quinoa{
+  float: right;
+  width: 50%;
+  margin-left: 15px;
+  margin-top: 15px;
+  border: 1px solid;
+  border-color: grey;
+}
+.corn{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.rice{
+  width: 70%;
+  margin: 0;
+  padding: 0;
+}
+.oats{
+  width: 70%;
+  margin: 0;
+  padding: 0;
+
+}
+div{
+  margin: 2rem;
+}
+figcaption{
+  color: white;
+  font-style: italic;
+  text-align: center;
+}
+.div-2{
+  background-color: #DC8252;
+  padding: 0;
+  margin: 0;
+  border: solid 2px;
+  border-color: #A93F35;
+}
+h2{
+  color: white;
+  text-align: center;
+}
+.peanuts{
+  float: left;
+  width: 30%;
+  border: 1px solid;
+  border-color: grey;
+  margin-right: 15px;
+}
+.beans{
+  float: left;
+  width: 30%;
+  border: 1px solid;
+  border-color: grey;
+  margin-right: 15px;
+  clear: both;
+  margin-top: 15px
+}
+.lentils{
+  float: left;
+  width: 30%;
+  border: 1px solid;
+  border-color: grey;
+  margin-right: 15px;
+  clear: left;
+  margin-top: 15px
+}
+
+footer{
+  float: top;
+  background-color: #d05c2e;
+  padding: 1rem;
+  text-align: center;
+  font-size: 1rem;
+  color: #DC8252;
+}
+.famous-legumes{
+  color: black;
+  text-align: center;
+}
+.p2{
+  font-style: italic;
+}
+b{
+  font-weight: bold;
 }
