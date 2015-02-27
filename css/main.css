@@ -1,0 +1,49 @@
+html{
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+
+}
+header{
+  background-color: #d05c2e;
+  text-align: center;
+  color: white;
+  padding: 0;
+  margin: 0;
+
+}
+.grainicon{
+  float:right;
+  width: 15%;
+}
+.grainicon-2{
+  float: left;
+  width: 15%
+}
+body{
+  font-family: 'Merriweather', serif;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0.5em 0;
+  margin: 0.5em 0;
+}
+nav li {
+  display: inline;
+}
+nav a{
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  border: 2px solid;
+  border-color: #A93F35;
+  background-color: #d05c2e;
+  padding: 0.50em 0.50em;
+  margin: 0.05em;
+
+}
+a:hover{
+  background-color: #A93F35;
+}
