@@ -1,5 +1,6 @@
 html{
   box-sizing: border-box;
+  margin-top: 0;
 }
 
 *, *::before, *::after {
@@ -8,13 +9,14 @@ html{
 }
 body{
   font-family: 'Merriweather', serif;
+  margin: 0;
 }
 header{
   background-color: #d05c2e;
   text-align: center;
   color: white;
   padding: 0;
-  margin: 0;
+  margin-top: 0;
 
 }
 .grainicon{
@@ -74,11 +76,13 @@ a:hover{
   padding: 0;
 }
 .rice{
+  text-align: center;
   width: 70%;
   margin: 0;
   padding: 0;
 }
 .oats{
+  text-align: center;
   width: 70%;
   margin: 0;
   padding: 0;
@@ -96,7 +100,8 @@ figcaption{
   background-color: #DC8252;
   padding: 0;
   margin: 0;
-  border: solid 2px;
+  border-top: solid 2px;
+  border-bottom: solid 2px;
   border-color: #A93F35;
 }
 h2{
