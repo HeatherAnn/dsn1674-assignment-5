@@ -75,19 +75,26 @@ a:hover{
   margin: 0;
   padding: 0;
 }
+.figurecorn{
+  width: 100%;
+}
 .rice{
   text-align: center;
-  width: 70%;
+  width: 100%;
   margin: 0;
   padding: 0;
 }
+
 .oats{
   text-align: center;
-  width: 70%;
+  width: 100%;
   margin: 0;
   padding: 0;
-
 }
+figure{
+  width: 50%;
+}
+
 div{
   margin: 2rem;
 }
@@ -141,6 +148,7 @@ footer{
   text-align: center;
   font-size: 1rem;
   color: #DC8252;
+  overflow: hidden;
 }
 .famous-legumes{
   color: black;
