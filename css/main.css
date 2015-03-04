@@ -84,7 +84,6 @@ a:hover{
   margin: 0;
   padding: 0;
 }
-
 .oats{
   text-align: center;
   width: 100%;
@@ -121,6 +120,7 @@ h2{
   border: 1px solid;
   border-color: grey;
   margin-right: 15px;
+  margin-left: 15px;
 }
 .beans{
   float: left;
@@ -129,7 +129,8 @@ h2{
   border-color: grey;
   margin-right: 15px;
   clear: both;
-  margin-top: 15px
+  margin-top: 15px;
+  margin-left: 15px;
 }
 .lentils{
   float: left;
@@ -138,7 +139,8 @@ h2{
   border-color: grey;
   margin-right: 15px;
   clear: left;
-  margin-top: 15px
+  margin-top: 15px;
+  margin-left: 15px;
 }
 
 footer{
@@ -149,6 +151,7 @@ footer{
   font-size: 1rem;
   color: #DC8252;
   overflow: hidden;
+  clear: left;
 }
 .famous-legumes{
   color: black;
