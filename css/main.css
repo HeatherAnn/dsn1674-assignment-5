@@ -1,6 +1,6 @@
 html{
   box-sizing: border-box;
-  margin-top: 0;
+  padding: 0;
 }
 
 *, *::before, *::after {
@@ -17,27 +17,33 @@ header{
   color: white;
   padding: 0;
   margin-top: 0;
+  overflow: hidden;
+  margin-bottom: 15px;
 
 }
 .grainicon{
   float:right;
   width: 15%;
+  margin-top: 15px;
 }
 .grainicon-2{
   float: left;
-  width: 15%
+  width: 15%;
+  margin-top: 15px;
 }
 
 nav ul {
   list-style-type: none;
-  padding: 0.5em 0;
-  margin: 0.5em 0;
+  margin: 0;
+  clear: left;
 }
 nav li {
-  display: inline;
+  display: block;
+  padding: 0;
 }
 nav a{
-  display: inline-block;
+  display: block;
+  float: left;
   color: white;
   text-decoration: none;
   border: 2px solid;
@@ -54,6 +60,8 @@ a:hover{
   float: left;
   width: 50%;
   margin-right: 15px;
+  border: 1px solid;
+  border-color: grey;
 }
 .cereals{
   float: right;
@@ -76,11 +84,20 @@ a:hover{
   padding: 0;
 }
 .figurecorn{
+  margin: 0;
+}
+figure{
   width: 100%;
+  padding: 0;
 }
 .rice{
   text-align: center;
   width: 100%;
+  margin: 0;
+}
+.figurerice{
+  float: right;
+  width: 50%;
   margin: 0;
   padding: 0;
 }
@@ -88,10 +105,11 @@ a:hover{
   text-align: center;
   width: 100%;
   margin: 0;
-  padding: 0;
 }
-figure{
+.figureoats{
   width: 50%;
+  margin: 0;
+  padding: 0;
 }
 
 div{
@@ -101,6 +119,7 @@ figcaption{
   color: white;
   font-style: italic;
   text-align: center;
+  margin-bottom: 10px;
 }
 .div-2{
   background-color: #DC8252;
@@ -141,6 +160,7 @@ h2{
   clear: left;
   margin-top: 15px;
   margin-left: 15px;
+  margin-bottom: 15px;
 }
 
 footer{
@@ -162,4 +182,7 @@ footer{
 }
 b{
   font-weight: bold;
+}
+li{
+  list-style-type: none;
 }
